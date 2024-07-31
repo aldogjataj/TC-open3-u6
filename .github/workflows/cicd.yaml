@@ -1,6 +1,6 @@
 name : Multiverse CI/CD Workflow 
 
-  on:
+on:
 
   push:
     pull_request:
@@ -20,6 +20,6 @@ name : Multiverse CI/CD Workflow
 
     - name: Install Pytest
     run: pip install pytest pytest-cov
-    
+
     - name: Run Pytest
     run: pytest
